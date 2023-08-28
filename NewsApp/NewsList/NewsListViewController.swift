@@ -23,7 +23,8 @@ final class NewsListViewController: UIViewController {
         tableView.dataSource = presenter
         
         tableView.register(NewsListTableViewCell.self, forCellReuseIdentifier: NewsListTableViewCell.identifier)
-        
+        tableView.register(NewsListTableViewHeaderView.self, forHeaderFooterViewReuseIdentifier: NewsListTableViewHeaderView.identifier)
+       
         tableView.refreshControl = refreshControl
         return tableView
        
