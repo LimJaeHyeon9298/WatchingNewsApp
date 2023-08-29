@@ -25,6 +25,7 @@
 		46FB0F3A2A9D015000A09B69 /* NewsRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FB0F392A9D015000A09B69 /* NewsRequestModel.swift */; };
 		46FB0F3C2A9D015900A09B69 /* NewsResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FB0F3B2A9D015900A09B69 /* NewsResponseModel.swift */; };
 		46FB0F3F2A9D024E00A09B69 /* NewsSearchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FB0F3E2A9D024E00A09B69 /* NewsSearchManager.swift */; };
+		46FB0F412A9D9A2600A09B69 /* String+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FB0F402A9D9A2600A09B69 /* String+.swift */; };
 		54F00EF8C54FFE3D53889026 /* Pods_NewsAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 820BA7D7B89B99204DE8ABE3 /* Pods_NewsAppTests.framework */; };
 		F3B4B77A4C6B1476B3F82990 /* Pods_NewsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716E953A3781AC1C2D6CFEED /* Pods_NewsApp.framework */; };
 /* End PBXBuildFile section */
@@ -67,6 +68,7 @@
 		46FB0F392A9D015000A09B69 /* NewsRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsRequestModel.swift; sourceTree = "<group>"; };
 		46FB0F3B2A9D015900A09B69 /* NewsResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsResponseModel.swift; sourceTree = "<group>"; };
 		46FB0F3E2A9D024E00A09B69 /* NewsSearchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsSearchManager.swift; sourceTree = "<group>"; };
+		46FB0F402A9D9A2600A09B69 /* String+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+.swift"; sourceTree = "<group>"; };
 		4CBF4506CE86F7B9D714F98D /* Pods-NewsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsApp.debug.xcconfig"; path = "Target Support Files/Pods-NewsApp/Pods-NewsApp.debug.xcconfig"; sourceTree = "<group>"; };
 		52E3DAE9886662A99E2E29A1 /* Pods-NewsAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsAppTests.debug.xcconfig"; path = "Target Support Files/Pods-NewsAppTests/Pods-NewsAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		716E953A3781AC1C2D6CFEED /* Pods_NewsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -139,6 +141,7 @@
 				46FB0F012A9CA5E400A09B69 /* Assets.xcassets */,
 				46FB0F032A9CA5E400A09B69 /* LaunchScreen.storyboard */,
 				46FB0F062A9CA5E400A09B69 /* Info.plist */,
+				46FB0F402A9D9A2600A09B69 /* String+.swift */,
 			);
 			path = NewsApp;
 			sourceTree = "<group>";
@@ -474,6 +477,7 @@
 				46FB0F3F2A9D024E00A09B69 /* NewsSearchManager.swift in Sources */,
 				46FB0F3C2A9D015900A09B69 /* NewsResponseModel.swift in Sources */,
 				46FB0EF92A9CA5E300A09B69 /* AppDelegate.swift in Sources */,
+				46FB0F412A9D9A2600A09B69 /* String+.swift in Sources */,
 				46FB0F372A9CF39900A09B69 /* NewsWebViewController.swift in Sources */,
 				46FB0EFB2A9CA5E300A09B69 /* SceneDelegate.swift in Sources */,
 				46FB0F2F2A9CA91200A09B69 /* NewsListPresenter.swift in Sources */,
